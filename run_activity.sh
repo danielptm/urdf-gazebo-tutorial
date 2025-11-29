@@ -1,0 +1,1 @@
+ros2 launch urdf_tutorial display.launch.py model:=/home/daniel/projects/urdf-gazebo-tutorial/section_3/s3_activity.urdf
