@@ -9,7 +9,7 @@ bash run_activity.sh
 ```
 ros2 topic echo /joint_states
 ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro section_3/s3_solution.urdf)"
-
+ros2 launch my_robot_description display.launch.xml
 ```
 
 ### Commands for tools
