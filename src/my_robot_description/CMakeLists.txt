@@ -8,7 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 install(
-    DIRECTORY urdf launch
+    DIRECTORY urdf launch rviz
     DESTINATION share/${PROJECT_NAME}/
 )
 ament_package()

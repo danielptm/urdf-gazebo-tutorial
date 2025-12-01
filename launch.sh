@@ -1,1 +1,2 @@
+source ~/.bashrc
 ros2 launch my_robot_description display.launch.xml
